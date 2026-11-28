@@ -1,0 +1,24 @@
+# Virtual environments
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
+
+# Generated models in legacy models folder
+models/*.pkl
+models/*.joblib
+
+# Logs
+logs/
